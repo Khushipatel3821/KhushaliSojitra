@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/i1gt"
+            android:paddingTop="10dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GT(Gujarat Titans)"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:layout_above="@+id/i2"
+            android:layout_centerHorizontal="true"
+            android:background="#0A2CD8"
+            android:paddingTop="10dp"
+            android:textColor="#FFC107"/>
+
+        <ImageView
+            android:id="@+id/i2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/i2mi"
+            android:layout_below="@+id/t1"
+            android:paddingTop="10dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="MI(Mumbai Indians)"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:layout_above="@+id/i3"
+            android:paddingTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="#0A2CD8"
+            android:textColor="#FFC107"/>
+
+        <ImageView
+            android:id="@+id/i3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/i3rcb"
+            android:paddingTop="10dp"
+            android:layout_below="@+id/t2"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RCB(Royal Challengers Bangalore)"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:layout_below="@+id/i3"
+            android:paddingTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="#0A2CD8"
+            android:textColor="#FFC107"/>
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"/>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Royal Challengers Bangalore Player Name List\n
+1.	Virat Kohli\n
+2.  Glenn Maxwell\n
+3.  Mohammad Siraj\n
+4.  Faf Du Plessis\n
+5.  Harshal Patel\n
+6.  Wanindu Hasaranga\n
+7.  Dinesh Karthik\n
+8.  Shahbaz Ahmed\n
+9.  Anuj Rawat\n
+10. Akash Deep\n
+11. Josh Hazlewood\n
+12. Mahipal Lomror\n
+13. Finn Allen\n
+14. Sherfane Rutherford\n
+15. Jason Behrendorff\n
+16. Suyash Prabhudessai\n
+17. Chama Milind\n
+18. Aneeshwar Gautam\n
+19. Karn Sharma\n
+20. Siddharth Kaul\n
+21. Luvnith Sisodia\n
+22. David Willey"
+            android:textSize="30dp"
+            android:textColor="@color/teal_200"
+            android:background="@color/black"
+            android:padding="10dp"/>
+
+</RelativeLayout>
+</ScrollView>
