@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gujarat Titans Player Name List 2022\n
+1.	Hardik Pandya\n
+2. 	Rashid Khan\n
+3. 	Shubman Gill\n
+4. 	Mohammed Shami\n
+5. 	Jason Roy\n
+7. 	Abhinav Sadarangani\n
+6. 	Lockie Ferguson\n
+8. 	Rahul Tewatia\n
+9.	Noor Ahmad\n
+10.	Sai Kishore\n
+11.	Dominic Drakes\n
+12.	Vijay Shankar\n
+13.	Jayant Yadav\n
+14.	Darshan Nalkande\n
+15.	Yash Dayal\n
+16.	Alzarri Joseph\n
+17.	Pradeep Sangwan\n
+18	Gurkeerat Singh\n
+19	Varun Aaron\n
+20	Pradeep Sangwan\n
+21.	David Miller\n
+22.	Wriddhiman Saha\n
+23.	Matthew Wade"
+        android:textSize="20dp"
+        android:textColor="#C30723"
+        android:padding="10dp"/>
+
+</RelativeLayout>
+</ScrollView>

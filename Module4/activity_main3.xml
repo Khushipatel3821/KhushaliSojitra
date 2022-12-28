@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mumbai Indian Player Name List\n
+1.	Rohit Sharma\n
+2.  Kieron Pollard\n
+3.  Suryakumar Yadav\n
+4.  Jasprit Bumrah\n
+5.  Ishan Kishan\n
+6.  Ramandeep Singh\n
+7.  Rahul Buddhi\n
+8.  Hrithik Shokeen\n
+9.  Arjun Tendulkar\n
+10. Aryan Juyal\n
+11. Fabian Allen\n
+12. Dewald Brevis\n
+13. Basil Thampi\n
+14. M Ashwin\n
+15. Jaydev Unadkat\n
+16. Mayank Markande\n
+17. Tilak Varma\n
+18. Sanjay Yadav\n
+19. Riley Meredith\n
+20. Mohd Arshad Khan\n
+21. Anmolpreet Singh"
+        android:textSize="30dp"
+        android:textColor="@color/teal_200"
+        android:background="@color/black"
+        android:padding="10dp"/>
+
+</RelativeLayout>
+</ScrollView>
